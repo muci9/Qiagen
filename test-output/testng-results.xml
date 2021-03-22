@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Suite" duration-ms="22195" started-at="2021-03-22T23:23:22 EET" finished-at="2021-03-22T23:23:44 EET">
+    <groups>
+      <group name="JavaAlgorithms">
+        <method signature="JavaAlgorithmsTests.testAnagramChecker(java.lang.String, java.lang.String, boolean)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testAnagramChecker" class="JavaAlgorithmsTests"/>
+        <method signature="JavaAlgorithmsTests.testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" class="JavaAlgorithmsTests"/>
+      </group> <!-- JavaAlgorithms -->
+      <group name="WebDriverTests">
+        <method signature="WebDriverTests.getFlightsSearchResults()[pri:0, instance:WebDriverTests@17652e6c]" name="getFlightsSearchResults" class="WebDriverTests"/>
+      </group> <!-- WebDriverTests -->
+    </groups>
+    <test name="QiagenInterview" duration-ms="22195" started-at="2021-03-22T23:23:22 EET" finished-at="2021-03-22T23:23:44 EET">
+      <class name="WebDriverTests">
+        <test-method status="PASS" signature="prepareChromeDriver()[pri:0, instance:WebDriverTests@17652e6c]" name="prepareChromeDriver" is-config="true" duration-ms="2" started-at="2021-03-22T23:23:22 EET" finished-at="2021-03-22T23:23:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareChromeDriver -->
+        <test-method status="PASS" signature="getFlightsSearchResults()[pri:0, instance:WebDriverTests@17652e6c]" name="getFlightsSearchResults" duration-ms="22086" started-at="2021-03-22T23:23:22 EET" finished-at="2021-03-22T23:23:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightsSearchResults -->
+      </class> <!-- WebDriverTests -->
+      <class name="JavaAlgorithmsTests">
+        <test-method status="PASS" signature="testAnagramChecker(java.lang.String, java.lang.String, boolean)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testAnagramChecker" duration-ms="16" started-at="2021-03-22T23:23:22 EET" data-provider="anagramCheckerData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnagramChecker -->
+        <test-method status="PASS" signature="testAnagramChecker(java.lang.String, java.lang.String, boolean)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testAnagramChecker" duration-ms="16" started-at="2021-03-22T23:23:22 EET" data-provider="anagramCheckerData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A Rope Ends It]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desperation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnagramChecker -->
+        <test-method status="PASS" signature="testAnagramChecker(java.lang.String, java.lang.String, boolean)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testAnagramChecker" duration-ms="16" started-at="2021-03-22T23:23:22 EET" data-provider="anagramCheckerData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ca    b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bAc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnagramChecker -->
+        <test-method status="PASS" signature="testAnagramChecker(java.lang.String, java.lang.String, boolean)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testAnagramChecker" duration-ms="16" started-at="2021-03-22T23:23:22 EET" data-provider="anagramCheckerData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anagram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[not an anagram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnagramChecker -->
+        <test-method status="PASS" signature="testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" duration-ms="1" started-at="2021-03-22T23:23:22 EET" data-provider="smallestDistanceNeighbourNumbersData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@415e2206]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallestDistanceNeighbourNumbers -->
+        <test-method status="PASS" signature="testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" duration-ms="5" started-at="2021-03-22T23:23:22 EET" data-provider="smallestDistanceNeighbourNumbersData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@163bc5e1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallestDistanceNeighbourNumbers -->
+        <test-method status="PASS" signature="testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" duration-ms="3" started-at="2021-03-22T23:23:22 EET" data-provider="smallestDistanceNeighbourNumbersData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@71e3ae07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallestDistanceNeighbourNumbers -->
+        <test-method status="PASS" signature="testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" duration-ms="2" started-at="2021-03-22T23:23:22 EET" data-provider="smallestDistanceNeighbourNumbersData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1ea62aee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallestDistanceNeighbourNumbers -->
+        <test-method status="PASS" signature="testSmallestDistanceNeighbourNumbers([I, int)[pri:0, instance:JavaAlgorithmsTests@6e9a7b6f]" name="testSmallestDistanceNeighbourNumbers" duration-ms="0" started-at="2021-03-22T23:23:22 EET" data-provider="smallestDistanceNeighbourNumbersData" finished-at="2021-03-22T23:23:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@127c3761]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallestDistanceNeighbourNumbers -->
+      </class> <!-- JavaAlgorithmsTests -->
+    </test> <!-- QiagenInterview -->
+  </suite> <!-- Test-Suite -->
+</testng-results>
